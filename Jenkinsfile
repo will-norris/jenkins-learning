@@ -21,7 +21,7 @@ pipeline {
 	}
         stage('Cleanup') {
             steps {
-		echo "Trying to create a file...." > file.txt
+		touch file.txt
                 echo 'Cleaning up..'
             }
 	}
