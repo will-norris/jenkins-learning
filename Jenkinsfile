@@ -21,7 +21,6 @@ pipeline {
 	}
         stage('Cleanup') {
             steps {
-		touch file.txt
                 echo 'Cleaning up..'
             }
 	}
